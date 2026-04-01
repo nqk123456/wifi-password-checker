@@ -1,0 +1,18 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#strengthMeter {
+    width: 200px;
+    height: 10px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.strength-weak { background-color: #ff4d4f; }
+.strength-medium { background-color: #ffad33; }
+.strength-strong { background-color: #52c41a; }
